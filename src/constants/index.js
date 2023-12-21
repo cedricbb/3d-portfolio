@@ -8,21 +8,17 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    arxama,
+    passman,
+    planetemode,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +38,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Développeur Web",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Développeur React Native",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Développeur back-end",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Créateur de contenus",
       icon: creator,
     },
   ];
@@ -81,20 +77,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -105,10 +93,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,55 +100,46 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Résponsable Logistique",
+      company_name: "Planète Mode",
+      icon: planetemode,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jan 2007 - Sep 2011",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gestion de stocks et de marchandises",
+        "Gestions de commandes fournisseurs",
+        "Entrée des produits dans le magasin",
+        "Étiquetage des produits",
+        "Gestion des retours clients",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Technicien Informatique",
+      company_name: "Passman",
+      icon: passman,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jan 2013 - Sep 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Préparation de commandes",
+        "Configuration matériel et logiciel",
+        "Configuration équipements réseaux et informatiques",
+        "Gestion fin de contrats et retours clients",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Développeur Fullstack",
+      company_name: "Arxama",
+      icon: arxama,
+      iconBg: "#383E56",
+      date: "Septembre 2017 - Avril 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gestion de projet de développement d'application web et de site web.",
+        "Intégration de maquettes et conception d'interfaces utilisateur.",
+        "Développement sites web et applications web.",
+        "Optimisation SEO.",
+        "Rédaction de cahier des charges et de spécifications fonctionnelles.",
+        "Digitalisation de documents et de sites web.",
+        "Formation et conseil aux utilisateurs.",
       ],
     },
   ];
@@ -172,7 +147,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "Je pensais qu'il était impossible de créer un site web aussi beau que notre produit, mais Cédric m'a prouvé le contraire.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -180,7 +155,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "Je n'ai jamais rencontré un développeur web qui se soucie autant de la réussite de ses clients que Cédric.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -188,7 +163,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "Après que Cédric a optimisé notre site web, notre trafic a augmenté de 50 %. Nous ne les remercierons jamais assez !",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -200,7 +175,7 @@ import {
     {
       name: "Car Rent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Plate-forme basée sur le web qui permet aux utilisateurs de rechercher, de réserver et de gérer des locations de voitures auprès de différents fournisseurs, offrant ainsi une solution pratique et efficace pour les besoins en matière de transport.",
       tags: [
         {
           name: "react",
@@ -221,7 +196,7 @@ import {
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Application web qui permet aux utilisateurs de rechercher des offres d'emploi, de visualiser les fourchettes de salaires estimées pour les postes et de localiser les emplois disponibles en fonction de leur localisation actuelle.",
       tags: [
         {
           name: "react",
@@ -242,7 +217,7 @@ import {
     {
       name: "Trip Guide",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Une plateforme complète de réservation de voyages qui permet aux utilisateurs de réserver des vols, des hôtels et des voitures de location, et qui offre des recommandations sur les destinations les plus populaires.",
       tags: [
         {
           name: "nextjs",
